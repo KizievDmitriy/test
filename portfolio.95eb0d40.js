@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".burger"),t=document.querySelector(".navrr"),o=document.querySelector("body");e.addEventListener("click",(function(){e.classList.toggle("toggled"),t.classList.toggle("show"),o.classList.toggle("overflow")}));new Swiper(".swiper",{direction:"horizontal",loop:!0,pagination:{el:".swiper-pagination",clickable:!0},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}})}();
+//# sourceMappingURL=portfolio.95eb0d40.js.map
