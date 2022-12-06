@@ -14,11 +14,11 @@ address{
         max-width: 240px;
         padding: 60px 15px;
     }
-    // @media screen and(min-width: 1200px) {
-    //     min-width: 320px;
-    //     padding: 30px;
+    @media screen and(min-width: 1200px) {
+        min-width: 320px;
+        padding: 30px;
 
-    // }
+    }
 }
 
 .about-list-title {
@@ -38,18 +38,18 @@ address{
             
     }
 }
-// .about-list-itm{
-//     &:not(:last-child){
-//         margin-bottom: 20px;
-//         @media screen and(min-width: 768px) {
-//             margin-bottom: 60px;
-//         }
-//         @media screen and(min-width: 1200px) {
-//             margin-bottom: 20px;
-//         }
-//     }
+.about-list-itm{
+    &:not(:last-child){
+        margin-bottom: 20px;
+        @media screen and(min-width: 768px) {
+            margin-bottom: 60px;
+        }
+        @media screen and(min-width: 1200px) {
+            margin-bottom: 20px;
+        }
+    }
     
-// }
+}
 .about-list-itm-adress{
     @media screen and(max-width: 767px) {
     width: 40px;
@@ -58,11 +58,11 @@ address{
         margin-left: 20px;
     }
     }
-    // @media screen and(min-width: 768px) {
-    //     &:not(:last-child){
-    //         // margin-bottom: 10px;
-    //     }
-    // }
+    @media screen and(min-width: 768px) {
+        &:not(:last-child){
+            margin-bottom: 10px;
+        }
+    }
 }
 .about-list-itm-link{
     width: 100%;
@@ -95,7 +95,7 @@ address{
     }
     @media screen and(min-width:768px){
         margin-left: 20px;
-        padding: 4px 6px 4px;
+        // padding: 4px 6px 4px;
         // font-size: 20px;
         // font-weight: 200;
         &:hover, :focus{
@@ -104,13 +104,13 @@ address{
     }
 }
 
-.about-skills-list{
-    // border-left: 2px solid #c8b392;    
-}
-.about-skills-list-dots{
-    position: relative;
-    // border-left: 3px dotted #c8b392;
-}
+// .about-skills-list{
+//     border-left: 2px solid #c8b392;    
+// }
+// .about-skills-list-dots{
+//     position: relative;
+//     border-left: 3px dotted #c8b392;
+// }
 .about-skills-item{
     margin-left: 20px;
     
@@ -126,6 +126,7 @@ address{
 .about-lang-item{
     display: flex;
     justify-content: space-between;
+    margin-left: 20px;
 }
 .lang-color{
     color: #c8b392;

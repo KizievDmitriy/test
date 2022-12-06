@@ -21,14 +21,31 @@
 .tittle-p{
     padding-left: 20px;
     margin-bottom: 20px;
-    font-style: italic;
-    font-weight: bold;
+    font-weight: 600;
+    &::after {
+            content: "|";
+            font-style: normal;
+            color: #000;
+            animation: blink 1s infinite;
+        }
+    
+        @keyframes blink {
+    
+            0%,
+            100% {
+                opacity: 1;
+            }
+    
+            50% {
+                opacity: 0;
+            }
+        }
    
 }
 
-// .education-list{
-//  padding-left: 20px;
-// }
+.education-list{
+ padding-left: 20px;
+}
 
 .education-item{
     padding-left: 20px;
@@ -45,8 +62,7 @@
 
     &>p{
         margin-top: 5px;
-        font-style: italic;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     &>h3:not(:first-child){
@@ -68,8 +84,7 @@ margin-left: 20px;
 }
 
 .hobby-p{
-    font-weight: bold;
-    font-style: italic;
+    font-weight: 600;
     font-size: 18px;
     line-height: 1.15;
     margin-left: 25px;
@@ -121,6 +136,8 @@ margin-left: 20px;
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-    /* If you want dots under the hoverable text */
+    
 }
-
+#linkkk{
+    margin-left: 20px;
+}
